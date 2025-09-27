@@ -53,7 +53,7 @@ conda install -n ENV_NAM ipykernel --update-deps --force-reinstall
 5. Asignar el kernel "ENV_NAM" creado antes al fichero.
 6. Ejecutar
 ## Herramientas Externas
-Para el desarrollo de estos ejercicios hemos hecho uso de la herramienta de inteligencia artificial copilot integrada en vs code para preguntar sobre los erroresque nos iban surgiendo
+Para el desarrollo de estos ejercicios hemos hecho uso de la herramienta de inteligencia artificial copilot integrada en vs code para preguntar sobre los errores que nos iban surgiendo. También la usamos para la imagen de la tarea 4.
 ## Incidencias
 En macOS funciona correctamente todo pero cada vez que se intenta cerrar la cámara, el kernel crashea. Parece ser que al cerrar el programa, la memoria no se libera.
 ## Creadores
