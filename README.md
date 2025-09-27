@@ -1,18 +1,18 @@
 # Entrega de la práctica 2 de VC
 ## Descripción de la tarea
-En este repositorio se encuentran las soluciones de las tareas solicitadas en el [fichero](https://github.com/otsedom/otsedom.github.io/blob/6378dcb759dee6f7c9dde1fe4555801f92b51969/VC/P2/VC_P2.ipynb) del [repositorio suministrado](https://github.com/otsedom/otsedom.github.io.git) por el profesor.
+En este repositorio se encuentran las soluciones de las tareas solicitadas en el [fichero](https://github.com/otsedom/otsedom.github.io/blob/main/VC/P2/VC_P2.ipynb) del [repositorio suministrado](https://github.com/otsedom/otsedom.github.io.git) por el profesor.
 ### Tarea 1
 #### Enunciado
 "TAREA: Realiza la cuenta de píxeles blancos por filas (en lugar de por columnas). Determina el valor máximo de píxeles blancos para filas, maxfil, mostrando el número de filas y sus respectivas posiciones, con un número de píxeles blancos mayor o igual que 0.90*maxfil."
 ### Tarea 2
 #### Enunciado
-"TAREA: Crear una imagen estilo Mondrian (un ejemplo https://www3.gobiernodecanarias.org/medusa/ecoescuela/sa/2017/04/17/descubriendo-a-mondrian/ ) con las funciones de dibujo de OpenCV"
+"TAREA: Aplica umbralizado a la imagen resultante de Sobel (convertida a 8 bits), y posteriormente realiza el conteo por filas y columnas similar al realizado en el ejemplo con la salida de Canny de píxeles no nulos. Calcula el valor máximo de la cuenta por filas y columnas, y determina las filas y columnas por encima del 0.90*máximo. Remarca con alguna primitiva gráfica dichas filas y columnas sobre la imagen del mandril. ¿Cómo se comparan los resultados obtenidos a partir de Sobel y Canny?."
 ### Tarea 3
 #### Enunciado
-"TAREA: Modifica de forma libre los valores de un plano de la imagen"
+"TAREA: Proponer un demostrador que capture las imágenes de la cámara, y les permita exhibir lo aprendido en estas dos prácticas ante quienes no cursen la asignatura. Es por ello que además de poder mostrar la imagen original de la webcam, permita cambiar de modo, incluyendo al menos dos procesamientos diferentes como resultado de aplicar las funciones de OpenCV trabajadas hasta ahora."
 ### Tarea 4
 #### Enunciado
-"TAREA: Pintar círculos en las posiciones del píxel más claro y oscuro de la imagen ¿Si quisieras hacerlo sobre la zona 8x8 más clara/oscura?"
+"TAREA: Tras ver los vídeos [My little piece of privacy](https://www.niklasroy.com/project/88/my-little-piece-of-privacy), [Messa di voce](https://youtu.be/GfoqiyB1ndE?feature=shared) y [Virtual air guitar](https://youtu.be/FIAmyoEpV5c?feature=shared) proponer un demostrador reinterpretando la parte de procesamiento de la imagen, tomando como punto de partida alguna de dichas instalaciones."
 ## Dependencias
 Para que este código se ejecute correctamente son necesarios los siguientes requisitos:
 - [Anaconda o miniconda](https://www.anaconda.com/download)
@@ -32,7 +32,7 @@ conda install -n ENV_NAM ipykernel --update-deps --force-reinstall
     - https://marketplace.visualstudio.com/items?itemName=ms-python.python
     - https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
 3. Clonar este repositorio
-4. Abrir el fichero [Entrega1.ipynb](./Entrega1.ipynb)
+4. Abrir el fichero [Entrega_2.ipynb](./Entrega_2.ipynb)
 5. Asignar el kernel "ENV_NAM" creado antes al fichero.
 6. Ejecutar
 ### MacOS/Linux
@@ -49,7 +49,7 @@ conda install -n ENV_NAM ipykernel --update-deps --force-reinstall
     - https://marketplace.visualstudio.com/items?itemName=ms-python.python
     - https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
 3. Clonar este repositorio
-4. Abrir el fichero [Entrega1.ipynb](./Entrega1.ipynb)
+4. Abrir el fichero [Entrega_2.ipynb](./Entrega_2.ipynb)
 5. Asignar el kernel "ENV_NAM" creado antes al fichero.
 6. Ejecutar
 ## Herramientas Externas
